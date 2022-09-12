@@ -46,7 +46,7 @@ alter table gastos add constraint nudeputadoid foreign key (nudeputadoid) refere
 /* Gastos com passagens aéreas por ano */
 select sum(vlrliquido) as valor, date_part('year', datemissao) as ano from gastos where txtdescricao = 'PASSAGENS AÉREAS' group by ano order by valor desc;
 
-/* Os cinco deputados federais que mais gastam dinheiro público */
+/* Os cinco deputados federais que mais gastam */
 select deputados.txnomeparlamentar nome, sum(gastos.vlrliquido) valor_gasto from deputados left join gastos on deputados.nudeputadoid = gastos.nudeputadoid group by nome order by valor_gasto desc limit 5;
 
 
@@ -54,11 +54,11 @@ select deputados.txnomeparlamentar nome, sum(gastos.vlrliquido) valor_gasto from
 select deputados.sguf estado, sum(gastos.vlrliquido) valor_gasto from deputados left join gastos on deputados.nudeputadoid = gastos.nudeputadoid group by estado order by valor_gasto desc;
 
 
-/* Estados com maiores gastos com deputados federais por ano*/
+/* Estados com maiores gastos com deputados federais por ano */
 select deputados.sguf estado, sum(gastos.vlrliquido) valor_gasto, date_part('year', gastos.datemissao) ano from deputados left join gastos on deputados.nudeputadoid = gastos.nudeputadoid group by estado, ano order by valor_gasto desc;
 
 
-/* Partidos que mais gastam dinheiro público */
+/* Partidos que mais gastam */
 select deputados.sgpartido partido, sum(gastos.vlrliquido) valor_gasto from deputados left join gastos on deputados.nudeputadoid = gastos.nudeputadoid group by partido order by valor_gasto desc;
 
 

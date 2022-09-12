@@ -16,7 +16,13 @@ Este é o projeto final da disciplina de Banco de Dados. O objetivo é utilizar 
 
 - Esses dois arquivos foram importados para o Banco de Dados Relacional criado no [PostgreSQL](https://www.postgresql.org/).
 
-- Apos a importação realizamos algumas Queries para visualizar informações da base de dados.
+- Apos a importação realizamos algumas Queries para visualizar informações da base de dados:
+  - Gastos com passagens aéreas por ano
+  - Os cinco deputados federais que mais gastam
+  - Estados com maiores gastos com deputados federais
+  - Estados com maiores gastos com deputados federais por ano
+  - Partidos que mais gastam
+  - Partidos com maior número de deputados
 
 Obs.: Esse projeto é apenas de cunho didático.
 

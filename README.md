@@ -22,7 +22,7 @@ Obs.: Esse projeto é apenas de cunho didático.
 
 ## Gerando/Baixando os arquivos .csv
 
-Você pode acessar o drive compartilhado com o arquivo do Google Colaboratory (divisaoCSV.ipynb) [disponível aqui](https://colab.research.google.com/drive/1eSkNDAcDFGaSKvq9l61VmhVKAyQJnDTo?usp=sharing), rodar o código e fazer o download dos arquivos deputados.csv e gastos.csv ou apenas fazer o download dos arquivos [deputados.csv](https://drive.google.com/file/d/1et_WZkr8Aekc4uQUmyYVIwZRFy1m2E1H/view?usp=sharing) e [gastos.csv](https://drive.google.com/file/d/1LOlGJCovXsWpBDHaHPt6P83D7qyNI0rX/view?usp=sharing).
+Você pode acessar o arquivo do Google Colaboratory (divisaoCSV.ipynb) [disponível aqui](https://colab.research.google.com/drive/1eSkNDAcDFGaSKvq9l61VmhVKAyQJnDTo?usp=sharing), rodar o código e fazer o download dos arquivos deputados.csv e gastos.csv ou apenas fazer o download desses dois arquivos [deputados.csv](https://drive.google.com/file/d/1et_WZkr8Aekc4uQUmyYVIwZRFy1m2E1H/view?usp=sharing) e [gastos.csv](https://drive.google.com/file/d/1LOlGJCovXsWpBDHaHPt6P83D7qyNI0rX/view?usp=sharing).
 
 ## 👨‍💻 Autores
 

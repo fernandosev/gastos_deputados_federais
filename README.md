@@ -33,3 +33,5 @@ Você pode acessar o arquivo do Google Colaboratory (divisaoCSV.ipynb) [disponí
 ## 👨‍💻 Autores
 
 - [Fernando Severino Almeida](https://github.com/fernandosev)
+- Hafy Mourad Jacoub de Cuba Kouzak
+- Rodrigo Yuji Okida Tamoto
